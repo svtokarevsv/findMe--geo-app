@@ -64,7 +64,7 @@ function initializeMap(gMaps) {
 			"use strict";
 			if (err) throw err
 			geoFireLocations.set(user,[position.coords.latitude,position.coords.longitude]).then(
-				newGeoQuery([position.coords.latitude,position.coords.longitude],100)
+				newGeoQuery([position.coords.latitude,position.coords.longitude],30000)
 			)
 		})
 	}

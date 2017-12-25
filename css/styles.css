@@ -1,0 +1,12 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#map{
+    height:100vh;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
